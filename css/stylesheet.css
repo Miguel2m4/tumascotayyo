@@ -118,13 +118,37 @@ textarea
 }
 .fondosection
 {
-	background: #d8f2fa;
-	margin-top: 1.8em;
+	background: #fff;
+	/*margin-top: 1.8em;*/
 	padding-top: 1.5em;
 }	
 .fondosection2
 {
+	background: url(../images/imagendiana.jpg);
 	margin-top: 1.8em;
+	padding: 1.8em 0em 0em 0em;
+	
+}
+.fondosection3
+{
+	background: #f2f2f2;
+	margin-top: 1.8em;
+	padding: 1.8em 0em 0em 0em;
+	
+}
+.fondosection4
+{
+	background: url(../images/imagencontacto.jpg);
+	padding: 1.8em 0em 0em 0em;
+	
+}
+.fondosection4 h2
+{
+	color: #fff;
+}
+.fondosection4 p
+{
+	color: #fff;
 }
 .menubg
 {
@@ -194,11 +218,15 @@ textarea
 }
 .segunda h2
 {
+	color: #00CFFF;
 	font-size: 2.3125em;
 }
 .segunda p
 {
+	color: #fff;
 	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: 0.5px;
 }
 .subirdoc
 {
