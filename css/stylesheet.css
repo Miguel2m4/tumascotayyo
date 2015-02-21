@@ -125,21 +125,48 @@ textarea
 .fondosection2
 {
 	background: url(../images/imagendiana.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-top: 1.8em;
 	padding: 1.8em 0em 0em 0em;
+	width: 100%;
 	
 }
+
 .fondosection3
 {
-	background: #f2f2f2;
+	background: url(../images/imagencontacto.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin-top: 1.8em;
-	padding: 1.8em 0em 0em 0em;
+	padding: 1.8em 0em 0em 0em;	
+	width: 100%;
 	
+}
+.fondosection3 h2
+{
+	color: #00CFFF;
+	text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;
+}
+.fondosection3 p
+{
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+.fondosection3 ul li
+{
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 0.5px;
 }
 .fondosection4
 {
-	background: url(../images/imagencontacto.jpg);
+	background:#35AFF0;
 	padding: 1.8em 0em 0em 0em;
+	
 	
 }
 .fondosection4 h2
@@ -199,7 +226,9 @@ textarea
 }
 .primera h2
 {
+	color: #00CFFF;
 	font-size: 2.3125em;
+	text-shadow: rgba(0,0,0,0.5) 1px 2px 2px;
 }
 .primera p
 {
@@ -220,6 +249,7 @@ textarea
 {
 	color: #00CFFF;
 	font-size: 2.3125em;
+	text-shadow:2px 2px 0px rgba(0, 0, 0, 1);
 }
 .segunda p
 {
@@ -462,6 +492,7 @@ textarea
 .primera h2
 {
 	font-size: 2em;
+	color:#00CFFF;
 }
 .primera p
 {
