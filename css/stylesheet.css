@@ -10,7 +10,7 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 }
 header
 {
-	background: #00a7ff;
+	background: #fff;
 	border-bottom: 1px solid #333;
 	color: #fff;
 	opacity: 0.9;
@@ -116,9 +116,71 @@ textarea
 	padding: 0.3em;
 	text-align: left;
 }
+div.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;  /* left arrow slant */
+    border-right: 5px solid transparent; /* right arrow slant */
+    border-bottom: 5px solid #2f2f2f; /* bottom, add background color here */
+    font-size: 0;
+    line-height: 0;
+}
+.flecha 
+{
+	height: 37px;
+	width: 100%;
+	padding: 0px;
+	margin: -37px 0;
+	background-image: url('../images/flecharriba.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+.fservicios
+{
+	margin-top: 100px ;
+}
+.fservicios .servicios
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 1.8em;
+	width: 17%;
+
+}
+.servicios
+{
+	border:5px solid #fff;
+}
+.servicios:hover
+{
+	border:5px solid #00a7ff;
+	-webkit-transition: .4s;
+}
+.fservicios .servicios .avatar1
+{
+	margin-top: -180px;
+	position: relative;
+}
+.fservicios .servicios .avatar1 img
+{
+	width: 125px;
+}
+.fservicios .servicios img
+{
+	height: 50%;
+
+	width: 100%;
+}
+.fservicios .servicios p
+{
+	font-size: 17px;
+	text-align: justify;
+	padding: 1.8em;
+}
 .fondosection
 {
-	background: #fff;
+	/*background: #fff;*/
 	/*margin-top: 1.8em;*/
 	padding-top: 1.5em;
 }	
@@ -371,7 +433,7 @@ textarea
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 614px;
+	height: 714px;
 	width: 100%;
 }
 #inicia-ses
@@ -384,11 +446,13 @@ textarea
 }
 #menu-top-lado1
 {
+	background: #00a7ff;
 	width: 30%;
 }
 #menu-top-lado1 h1
 {
 	font-size: 1.2em;
+	text-align: right;
 	padding: 0px 20px;	
 }
 #menu-top-lado1 a
