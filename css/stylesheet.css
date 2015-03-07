@@ -10,7 +10,7 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 }
 header
 {
-	background: #fff;
+	background: #001c20;
 	border-bottom: 1px solid #333;
 	color: #fff;
 	opacity: 0.9;
@@ -81,6 +81,31 @@ textarea
 	padding-left: 15px;
 	width: 95%;
 }
+.contenido0
+{
+	background: #e4f0f1;
+	text-align: center;
+	margin: 0px auto 0px auto;
+}
+.contenido0 h2
+{
+	color:#0b8fa2;
+	font-size: 28px;
+	text-align: left;
+}
+.contenido0 p
+{
+	color:#333;
+	text-align: left;
+	font-size: 21px;
+	line-height: 1.7em;
+	padding-right: 1.8em;
+}
+.contenido0 #contelado2 iframe
+{
+	padding-top: 1.5em;
+	width: 450px;
+}
 .contenido
 {
 	text-align: center;
@@ -94,7 +119,7 @@ textarea
 }
 .copyright
 {
-	background: #2f2a2b;
+	background: #001c20;
 	color: #fff;
 	text-align: center;
 	text-shadow: 0.01em 0.08em #002c27;
@@ -148,13 +173,23 @@ div.arrow-up {
 	width: 17%;
 
 }
+.fservicios .ventajas h2
+{
+	color: #0b8fa2;
+	font-size: 28px;
+	text-align: center;
+}
 .servicios
 {
 	border:5px solid #fff;
 }
+.servicios h2
+{
+	color: #0b8fa2;
+}
 .servicios:hover
 {
-	border:5px solid #00a7ff;
+	border:5px solid #0b8fa2;
 	-webkit-transition: .4s;
 }
 .fservicios .servicios .avatar1
@@ -198,7 +233,7 @@ div.arrow-up {
 
 .fondosection3
 {
-	background: url(../images/imagencontacto.jpg);
+	background: #0b8fa2;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -209,7 +244,7 @@ div.arrow-up {
 }
 .fondosection3 h2
 {
-	color: #00CFFF;
+	color: #fff;
 	text-shadow: rgba(0,0,0,0.9) 1px 2px 2px;
 }
 .fondosection3 p
@@ -226,7 +261,7 @@ div.arrow-up {
 }
 .fondosection4
 {
-	background:#35AFF0;
+	background: #3BB5BE;
 	padding: 1.8em 0em 0em 0em;
 	
 	
@@ -296,6 +331,24 @@ div.arrow-up {
 {
 	font-size: 1.4em;
 }
+.probemoshaber
+{
+	margin:20px 0 20px 0; 
+}
+.probemoshaber a
+{
+	background:#0e6471;
+	color: #fff;
+	font-size: 28px;
+	text-decoration: none;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	-webkit-transition: .4s;
+}
+.probemoshaber a:hover
+{
+	background:#0b8fa2;
+}
+
 .segunda
 {
 	display: inline-block;
@@ -323,9 +376,9 @@ div.arrow-up {
 .subirdoc
 {
 	border-radius: 0.3em;
-	background: #16afff;
-	border:1px solid #16afff;
-	border-bottom: 3px solid #0e73a7;
+	background: #61CFD7;
+	border: 1px solid #2CB8C2;
+	border-bottom: 3px solid #0C7880;
 	color: #fff;
 	cursor: pointer;
 	font-family: sans-serif;
@@ -337,7 +390,7 @@ div.arrow-up {
 }
 .subirdoc:hover
 {
-	background: #0e73a7;
+	background: #001c20;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -377,16 +430,18 @@ div.arrow-up {
 }
 .tercera h2
 {
-	font-size: 2.3125em;
+	font-size: 28px;
 }
 .tercera p
 {
-	font-size: 1.4em;
+	font-size: 21px;
+	font-weight: 200;
 	text-align: justify;
 }
 .tercera ul li
 {
-	font-size: 1.4em;
+	font-size: 21px;
+	font-weight: 200;
 	text-align: justify;
 }
 .tercera a
@@ -406,6 +461,17 @@ div.arrow-up {
 	-ms-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
+}
+.tercera input[type=file]
+{
+	font-size: 18px;
+}
+#contelado1, #contelado2
+{
+	display: inline-block;
+	vertical-align: top;
+	padding:3.5em 1.8em 3.5em 0;
+	width: 32%;
 }
 #contenido-centro
 {
@@ -427,13 +493,14 @@ div.arrow-up {
   	width: 100%;
   	height: 1000px;
 }
+
 #imagenfondo1 
 {
 	background-image: url(../images/bag.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 714px;
+	height: 580px;
 	width: 100%;
 }
 #inicia-ses
@@ -446,14 +513,14 @@ div.arrow-up {
 }
 #menu-top-lado1
 {
-	background: #00a7ff;
+	background: #001c20;
 	width: 30%;
 }
 #menu-top-lado1 h1
 {
 	font-size: 1.2em;
-	text-align: right;
-	padding: 0px 20px;	
+	text-align: left;
+	padding: 0px 20px 0px 120px;	
 }
 #menu-top-lado1 a
 {
@@ -570,6 +637,10 @@ div.arrow-up {
 {
 	font-size: 1.2em;
 }
+.fservicios .servicios
+{
+	width: 80%;
+}
 #contenido-centro
 {
 	margin: 0px auto 0px auto;
@@ -578,7 +649,33 @@ div.arrow-up {
 	padding-top: 90px;
 	z-index: 100;	
 }
-
+#contelado1, #contelado2
+{
+	width: 95%;
+}
+#contelado1
+{
+	padding: 0.8em;
+}
+#contelado1 p
+{
+	padding: 0;
+	text-align: center;
+}
+#contelado1 h2
+{
+	text-align: center;
+}
+#contelado2
+{
+	padding: 0;
+	text-align: center;
+}
+.contenido0 #contelado2 iframe
+{
+	width: 80%;
+	padding-bottom: 1.8em;
+}
 #fondo-sesion
 {
 	background-image: url(../images/fotofondosesion2.jpg);
@@ -601,5 +698,9 @@ div.arrow-up {
  #imagenfondo1  
   {
     background-image: url(../images/bag2.jpg);
+  }
+  .probemoshaber a
+  {
+  	font-size: 20px;
   }
  }
