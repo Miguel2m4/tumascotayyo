@@ -137,8 +137,8 @@ textarea
 }
 .document-input-file
 {
-	font-size: 1.3em;
-	padding: 0.3em;
+	font-size: 16px;
+	
 	text-align: left;
 }
 div.arrow-up {
@@ -659,7 +659,7 @@ div.arrow-up {
 }
 #contelado1 p
 {
-	padding: 0;
+	padding: 0px 0.8em 0px 0.8em;
 	text-align: center;
 }
 #contelado1 h2
