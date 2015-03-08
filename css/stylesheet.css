@@ -81,11 +81,31 @@ textarea
 	padding-left: 15px;
 	width: 95%;
 }
+.adoptame
+{
+	color: #333;
+	text-align: center;
+	font-size: 21px;
+	line-height: 1.7em;	
+	margin: 0px auto 0px auto;
+	width:  60%;
+}
+.adoptame h2
+{
+	color: #0b8fa2;
+	font-size: 28px;
+	text-align: center;
+}
 .contenido0
 {
 	background: #e4f0f1;
 	text-align: center;
 	margin: 0px auto 0px auto;
+}
+.adoptame img
+{
+	width: 187px;
+	padding-bottom: 2.5em;
 }
 .contenido0 h2
 {
@@ -137,8 +157,7 @@ textarea
 }
 .document-input-file
 {
-	font-size: 16px;
-	
+	font-size: 16px;	
 	text-align: left;
 }
 div.arrow-up {
@@ -348,7 +367,23 @@ div.arrow-up {
 {
 	background:#0b8fa2;
 }
-
+.probemoshaber2
+{
+	margin:20px 0 20px 0; 
+}
+.probemoshaber2 a
+{
+	background:#001c20;
+	color: #fff;
+	font-size: 28px;
+	text-decoration: none;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	-webkit-transition: .4s;
+}
+.probemoshaber2 a:hover
+{
+	color: #41bac2;
+}
 .segunda
 {
 	display: inline-block;
@@ -447,11 +482,11 @@ div.arrow-up {
 .tercera a
 {
 	background: #f06008;
-	border-radius: 0.3em;
+	font-size: 21px;
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0.3em 0.5em 0.3em 0.5em;
+	padding: 0.2em 0.5em 0.2em 0.5em;
 }
 .tercera a:hover
 {
@@ -625,6 +660,11 @@ div.arrow-up {
 	font-size: 2em;
 	color:#00CFFF;
 }
+input[type=file]
+{
+	font-size: 10px;	
+	text-align: left;
+}
 .primera p
 {
 	font-size: 1.2em;
@@ -700,6 +740,10 @@ div.arrow-up {
     background-image: url(../images/bag2.jpg);
   }
   .probemoshaber a
+  {
+  	font-size: 20px;
+  }
+    .probemoshaber2 a
   {
   	font-size: 20px;
   }
