@@ -386,6 +386,24 @@ div.arrow-up {
 {
 	color: #41bac2;
 }
+.probemoshaber3
+{
+	margin:20px 0 20px 0; 
+	padding-right: 2.5em;
+}
+.probemoshaber3 a
+{
+	background:#001c20;
+	color: #fff;
+	font-size: 28px;
+	text-decoration: none;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	-webkit-transition: .4s;
+}
+.probemoshaber3 a:hover
+{
+	color: #41bac2;
+}
 .segunda
 {
 	display: inline-block;
@@ -517,6 +535,16 @@ div.arrow-up {
 	width: 85%;
 	padding-top: 231px;
 	z-index: 100;
+}
+#texto-inicio-lado1
+{
+	text-align: right;	
+	width: 80%;
+}
+#texto-inicio-lado1 img
+{
+	width: 295px;
+	margin-top: -58px;
 }
 #fondo-sesion
 {
@@ -749,8 +777,28 @@ input[type=file]
   {
   	font-size: 20px;
   }
+      .probemoshaber3 a
+  {
+  	font-size: 20px;
+  }
+ .probemoshaber3
+ {
+ 	padding-right: 0px;
+ }
   .tercera input[type=file]
 {
 	font-size: 13px;
+}
+#texto-inicio-lado1
+{
+	text-align: center;
+	width: 100%;
+}
+
+#texto-inicio-lado1 img
+{
+
+	width: 141px;
+	margin-top: -1px;
 }
  }
