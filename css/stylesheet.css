@@ -157,9 +157,11 @@ textarea
 }
 .document-input-file
 {
+	color: #fff;
 	font-size: 16px;	
 	text-align: left;
 }
+
 div.arrow-up {
     width: 0;
     height: 0;
@@ -499,7 +501,7 @@ div.arrow-up {
 }
 .tercera input[type=file]
 {
-	font-size: 18px;
+	font-size: 16px;
 }
 #contelado1, #contelado2
 {
@@ -747,4 +749,8 @@ input[type=file]
   {
   	font-size: 20px;
   }
+  .tercera input[type=file]
+{
+	font-size: 13px;
+}
  }
