@@ -194,6 +194,45 @@ div.arrow-up {
 	width: 17%;
 
 }
+.fot-adp
+{
+	display: inline-block;
+	padding: 0.8em;
+
+}
+.adoptame .fot-adp img
+{
+	display: inline-block !important;
+	margin: 0px auto 0px auto;
+	vertical-align: top;
+	text-align: center;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%); /* Para cuando es estándar funcione en todos */
+	filter: Gray(); /* IE4-8 and 9 */
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.adoptame .fot-adp img:hover
+{
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: none;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
 .fservicios .ventajas h2
 {
 	color: #0b8fa2;
