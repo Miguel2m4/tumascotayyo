@@ -19,75 +19,42 @@
 <section class="sec-admin">
 
 <div id="section-lado-izq">
-<form class="crea-mascota">
-	<p>Nombre de Mascota</p>
-	<input type="text" placeholder="Escribe su hermoso nombre" requierd>
-	<p>Raza</p>
-	<input type="text" placeholder="Que raza es?" requierd>
-	<p>Color</p>
-	<input type="text" placeholder="Que color predomina?" requierd>
-	<p>Fecha de Nacimiento, escribe un aproximado</p>
-	<input type="date">
-	<p>Edad</p>
-	<input type="text" placeholder="Edad" disabled="">
-	<p>Peso</p>
-	<input type="text" placeholder="Cuanto pesa?" disabled="">
+<div class="crea-mascota">
+	<form>
+		<p>Nombre de Mascota</p>
+		<input type="text" placeholder="Escribe su hermoso nombre" required>
+		<p>Raza</p>
+		<input type="text" placeholder="Que raza es?" required>
+		<p>Color</p>
+		<input type="text" placeholder="Que color predomina?" required>
+		<p>Fecha de Nacimiento, escribe un aproximado</p>
+		<input type="date">
+		<p>Edad</p>
+		<input type="text" placeholder="Edad" disabled="">
+		<p>Peso</p>
+		<input type="text" placeholder="Cuanto pesa?" disabled="">
 
-</form>
+	
+</div>
 </div>
 
 <div id="section-lado-der">
-	<div id="notificador">
-		<div id="top-notificador">
-			<ul>
-				<li><a href="#">Notificaciones <span>10</span></a></li>
-				<li><a href="#">Mensajes <span>0</span></a></li>
-			</ul>
-		</div>
-		<table>
-			<thead>
-				<td>Fecha</td>
-				<td>Usuario</td>
-				<td>Servicio</td>
-			</thead>
-			<tbody>
-				<tr>
-					<td>12-02-2014</td>
-					<td>Daniela</td>
-					<td><span class="bano">Baño</span></td>					
-				</tr>
-				<tr>
-					<td>12-02-2014</td>
-					<td>Mateo</td>
-					<td><span class="consul">Consulta</span></td>
-				</tr>
-				<tr>
-					<td>12-02-2014</td>
-					<td>Ana</td>
-					<td><span class="vacunas">Vacunas</span></td>
-				</tr>
-				<tr>
-					<td>12-02-2014</td>
-					<td>Daniela</td>
-					<td><span class="bano">Baño</span></td>					
-				</tr>
-				<tr>
-					<td>12-02-2014</td>
-					<td>Mateo</td>
-					<td><span class="consul">Consulta</span></td>
-				</tr>
-				<tr>
-					<td>12-02-2014</td>
-					<td>Ana</td>
-					<td><span class="vacunas">Vacunas</span></td>
-				</tr>
-			</tbody>
-		</table>
-		<div class=""></div>
-
-		
-	</div>
-
+	<div class="crea-propietario">
+		<p>Nombre del propietario</p>
+		<input type="text" placeholder="Nombre" required>
+		<p>Apellido del Propietario</p>
+		<input type="text" placeholder="Apellido" required>
+		<p>Telefono</p>
+		<input type="text" placeholder="Telefono fijo" required>
+		<p>Movil</p>
+		<input type="text" placeholder="Telefono Celular" required>
+		<p>Dirección</p>
+		<input type="text" placeholder="Dirección" required>
+		<p>Email</p>
+		<input type="email" placeholder="Correo">
+		<input type="submit" value="Guardar">
+	</form>
+</div>
 </div>
 
 </section>
