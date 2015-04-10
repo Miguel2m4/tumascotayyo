@@ -61,6 +61,39 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 	margin-top: -9px;
 	text-align: center;
 }
+.navega
+{
+	background: #f2f2f2;
+	padding: 0.5em 0.5em 0.7em 0.5em;
+
+}
+.navega a
+{
+	background: #f06008;
+	border-radius: 0.3em;
+	border-bottom: 4px solid #c95007;
+	color: #fff;
+	float: left;
+	font-family: arial, sans-serif;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	padding: 0.5em 0.8em 0.5em 0.8em;
+	text-decoration: none;
+}
+.navega a:hover
+{
+	background: #c95007;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.navega h3
+{
+	font-size: 30px;
+	margin: 0px;
+}
 .panel-arriba
 {
 	background: #13a9f8;
@@ -197,6 +230,41 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 	vertical-align: top;
 	width: 49%;
 
+}
+#section-lado-izq .crea-mascota
+{
+	text-align: left;
+	padding: 0.8em;
+	padding-bottom: 1.5em;
+}
+#section-lado-izq .crea-mascota input[type="text"]
+{
+	border: 1px solid #8FD5F4;
+	color: #333;
+	font-family: "arial";
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.3em;
+	text-align: left;
+	text-transform: uppercase;
+	width: 90%;
+}
+#section-lado-izq .crea-mascota p
+{
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 1px;
+}
+#section-lado-izq .crea-mascota input[type="date"]
+{
+	border: 1px solid #8FD5F4;
+	color: #333;
+	font-family: "arial";
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.2em;
+	text-align: left;
+	width: 90%;
 }
 #section-lado-der
 {
