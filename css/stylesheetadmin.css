@@ -636,7 +636,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 .panel-back .conten-sup label
 {
 	display: block;
-	line-height: 17px;
+	line-height: 38px;
 	padding-bottom: 0.8em;
 
 }
