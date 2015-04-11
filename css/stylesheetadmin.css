@@ -1,3 +1,154 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-kz27ec');
+	src:url('../fonts/icomoon.eot?#iefix-kz27ec') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-kz27ec') format('woff'),
+		url('../fonts/icomoon.ttf?-kz27ec') format('truetype'),
+		url('../fonts/icomoon.svg?-kz27ec#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-histor:before {
+	content: "\f068";
+}
+
+.icon-comprador:before {
+	content: "\f035";
+	padding: 0px 0.5em 0em 0.5em;
+}
+
+.icon-distribuidor:before {
+	content: "\f096";
+}
+
+.icon-producto:before {
+	content: "\f061";
+}
+
+.icon-cerrar:before {
+	content: "\f06a";
+}
+
+.icon-user:before {
+	content: "\f007";
+	padding: 0px 0.5em 0em 0.5em;
+}
+
+.icon-check:before {
+	content: "\f00c";
+}
+
+.icon-close:before {
+	content: "\f00d";
+}
+
+.icon-search-plus:before {
+	content: "\f00e";
+}
+
+.icon-trash-o:before {
+	content: "\f014";
+}
+
+.icon-home:before {
+	content: "\f015";
+}
+
+.icon-clock-o:before {
+	content: "\f017";
+}
+
+.icon-lock:before {
+	content: "\f023";
+}
+
+.icon-camera:before {
+	content: "\f030";
+}
+
+.icon-image:before {
+	content: "\f03e";
+}
+
+.icon-exclamation-triangle:before {
+	content: "\f071";
+}
+
+.icon-calendar:before {
+	content: "\f073";
+}
+
+.icon-comment:before {
+	content: "\f075";
+}
+
+.icon-chevron-up:before {
+	content: "\f077";
+}
+
+.icon-chevron-down:before {
+	content: "\f078";
+}
+
+.icon-bar-chart:before {
+	content: "\f080";
+}
+
+.icon-phone:before {
+	content: "\f095";
+}
+
+.icon-bullhorn:before {
+	content: "\f0a1";
+}
+
+.icon-bell-o:before {
+	content: "\f0a2";
+}
+
+.icon-wrench:before {
+	content: "\f0ad";
+}
+
+.icon-list-ul:before {
+	content: "\f0ca";
+}
+
+.icon-medkit:before {
+	content: "\f0fa";
+}
+
+.icon-folder-o:before {
+	content: "\f114";
+}
+
+.icon-folder-open-o:before {
+	content: "\f115";
+}
+
+.icon-unlock-alt:before {
+	content: "\f13e";
+}
+
+.icon-paw:before {
+	content: "\f1b0";
+	padding: 0px 0.5em 0em 0.5em;
+}
 body
 {
 	background: #f9f9f9;
@@ -7,6 +158,10 @@ body
 @font-face{
 font-family: "geosanslight";
 src: url(../fonts/geosanslight.ttf) format("truetype");
+}
+@font-face{
+font-family: "DroidSans";
+src: url(../fonts/DroidSans.ttf) format("truetype");
 }
 .items li 
 {
@@ -97,6 +252,77 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 .panel-arriba
 {
 	background: #13a9f8;
+}
+.panel-back
+{
+	margin: 0px auto 0px auto;
+	width: 90%;
+}
+.panel-back .conten-sup
+{
+	text-align: left;
+	width: 100%;
+}
+.panel-back .conten-sup input[type=text]
+{
+	border: 1px solid #8FD5F4;
+	color: #333;
+	font-family: "arial";
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.3em;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: left;
+	text-transform: uppercase;
+	width: 350px;
+}
+.panel-back .conten-sup input[type=date]
+{
+	border: 1px solid #8FD5F4;
+	color: #333;
+	font-family: "arial";
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.15em;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.panel-back .conten-sup input[type=submit]
+{
+	border: none;
+	background: #f06008;
+	border-radius: 0.3em;
+	border-bottom: 4px solid #c95007;
+	color: #fff;
+	font-family: arial, sans-serif;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	padding: 0.5em 0.8em 0.5em 0.8em;
+	text-decoration: none;
+}
+.panel-back .conten-sup input[type=submit]:hover
+{
+	background: #c95007;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.panel-back .conten-sup input[type=radio]
+{
+	font-size: 20px;
+}
+.panel-back .conten-sup label
+{
+	color: #333;
+	font-size: 18px;
+	font-family: "DroidSans";
+	padding-bottom: 0.8em;
 }
 .sec-admin
 {
@@ -230,6 +456,12 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 	vertical-align: top;
 	width: 49%;
 
+}
+#section-lado-izq .crea-mascota img
+{
+	border-radius: 0.3em;
+	border: 2px solid #8FD5F4;
+	width: 350px;
 }
 #section-lado-izq .crea-mascota
 {
@@ -385,6 +617,7 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 }
 
 @media screen and (max-width: 1030px){
+
 #section-lado-izq
 {
 	width: 95%;
@@ -393,6 +626,24 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 {
 	width: 95%;
 }	
+}
+@media screen and (max-width: 800px){
+#section-lado-izq .crea-mascota img
+{
+	border-radius: 0.3em;
+	width: 90%;
+}
+.panel-back .conten-sup label
+{
+	display: block;
+	line-height: 17px;
+	padding-bottom: 8px;
+
+}
+.panel-back .conten-sup input[type=text]
+{
+	width: 90%;
+}
 }
 @media screen and (max-width: 330px){
 #section-lado-izq 
