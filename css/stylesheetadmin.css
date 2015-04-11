@@ -321,6 +321,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	color: #333;
 	font-size: 18px;
+	line-height: 10px;
 	font-family: "DroidSans";
 	padding-bottom: 0.8em;
 }
