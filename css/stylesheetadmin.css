@@ -637,7 +637,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	display: block;
 	line-height: 17px;
-	padding-bottom: 8px;
+	padding-bottom: 0.8em;
 
 }
 .panel-back .conten-sup input[type=text]
