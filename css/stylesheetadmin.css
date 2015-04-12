@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-kz27ec');
-	src:url('../fonts/icomoon.eot?#iefix-kz27ec') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-kz27ec') format('woff'),
-		url('../fonts/icomoon.ttf?-kz27ec') format('truetype'),
-		url('../fonts/icomoon.svg?-kz27ec#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?-s1abb9');
+	src:url('../fonts/icomoon.eot?#iefix-s1abb9') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-s1abb9') format('woff'),
+		url('../fonts/icomoon.ttf?-s1abb9') format('truetype'),
+		url('../fonts/icomoon.svg?-s1abb9#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -29,7 +29,7 @@
 
 .icon-comprador:before {
 	content: "\f035";
-	padding: 0px 0.5em 0em 0.5em;
+	padding: 0em 0.5em 0em 0.5em;  
 }
 
 .icon-distribuidor:before {
@@ -46,7 +46,7 @@
 
 .icon-user:before {
 	content: "\f007";
-	padding: 0px 0.5em 0em 0.5em;
+	padding: 0em 0.5em 0em 0.5em;
 }
 
 .icon-check:before {
@@ -85,6 +85,26 @@
 	content: "\f03e";
 }
 
+.icon-pencil:before {
+	content: "\f040";
+}
+
+.icon-map-marker:before {
+	content: "\f041";
+}
+
+.icon-plus:before {
+	content: "\f067";
+}
+
+.icon-minus:before {
+	content: "\f069";
+}
+
+.icon-exclamation-circle:before {
+	content: "\f06b";
+}
+
 .icon-exclamation-triangle:before {
 	content: "\f071";
 }
@@ -109,11 +129,19 @@
 	content: "\f080";
 }
 
+.icon-liken:before {
+	content: "\f087";
+}
+
+.icon-heart-o:before {
+	content: "\f08a";
+}
+
 .icon-phone:before {
 	content: "\f095";
 }
 
-.icon-bullhorn:before {
+.icon-megafono:before {
 	content: "\f0a1";
 }
 
@@ -129,6 +157,26 @@
 	content: "\f0ca";
 }
 
+.icon-certificado:before {
+	content: "\f0ea";
+}
+
+.icon-user-medico:before {
+	content: "\f0f0";
+}
+
+.icon-stethoscope:before {
+	content: "\f0f1";
+}
+
+.icon-coffee:before {
+	content: "\f0f4";
+}
+
+.icon-cubiertos:before {
+	content: "\f0f5";
+}
+
 .icon-medkit:before {
 	content: "\f0fa";
 }
@@ -141,13 +189,25 @@
 	content: "\f115";
 }
 
+.icon-smile-o:before {
+	content: "\f118";
+}
+
+.icon-frown-o:before {
+	content: "\f119";
+}
+
+.icon-meh-o:before {
+	content: "\f11a";
+}
+
 .icon-unlock-alt:before {
 	content: "\f13e";
 }
 
 .icon-paw:before {
 	content: "\f1b0";
-	padding: 0px 0.5em 0em 0.5em;
+	padding: 0em 0.5em 0em 0.5em;
 }
 body
 {
@@ -338,6 +398,67 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	text-align: left;
 
 }
+.sec-histo
+{
+	background: #fff;
+	font-family: "DroidSans";
+	margin-top: 0.4em;
+	margin-bottom: 0.8em;
+	padding: 0.5em 0.5em 0.5em 0.8em;
+	text-align: left;
+	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+.sec-histo .sec1
+{
+	padding-right: 0.5em;
+}
+.sec-histo .sec1 h2
+{
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0.2em 0.2em 0.2em 0.2em;
+}
+.sec-histo .sec1 h3
+{
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0.2em 0.2em 0.2em 0.2em;
+}
+.sec-histo .sec1 h2 span
+{
+	color: #818181;
+	font-weight: 300;
+	padding-right: 0.2em;
+}
+.sec-histo .sec1 h3 span
+{
+	color: #818181;
+	font-weight: 300;
+	padding-right: 0.2em;
+}
+.sec-histo .sec2 p
+{
+	color: #818181;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 0px;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.sec-histo .sec2 a
+{
+	background: #FDE9EA;
+	border-radius: 0.2em;
+	text-decoration: none;
+	color: #FF4250;
+	font-size: 14px;
+	padding:  0.2em 0.4em 0.2em 0.4em;
+	-webkit-transition: .3s;
+}
+.sec-histo .sec2 a:hover
+{
+	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
 #notificador
 {
 	background: #fff;
@@ -431,15 +552,11 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	margin-right: 0.5em;
 	padding: 0.5em 0.5em 0.5em 0.5em;	
 	text-decoration: none;
+	
 }
 #panel-arriba-lado2 a:hover
 {
 	background: #c95007;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
 }
 #panel-arriba-lado2
 {
@@ -450,6 +567,23 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	display: inline-block;
 	vertical-align: top;
+}
+.sec1, .sec2, .sec3
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.sec1
+{
+	width: 280px;
+}
+.sec2
+{
+	width: 50%;
+}
+.sec3
+{
+	width: 20%;
 }
 #section-lado-izq
 {
@@ -644,6 +778,11 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 .panel-back .conten-sup input[type=text]
 {
 	width: 90%;
+}
+.sec1, .sec2, .sec3
+{
+	display: block;
+	width: 99%;
 }
 }
 @media screen and (max-width: 330px){
