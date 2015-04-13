@@ -223,6 +223,19 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 font-family: "DroidSans";
 src: url(../fonts/DroidSans.ttf) format("truetype");
 }
+.editar-hirt, .icon-trash-o
+{
+	display: inline-block;
+	/*float: left;*/
+	padding: 0.5em;
+	vertical-align: top;
+}
+.eliminar-hist, .editar-hirt
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 19px;
+}
 .items li 
 {
 	background: #f3f4f4;
@@ -459,6 +472,61 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
+.sec1, .sec2
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.sec1
+{
+	width: 30%;
+}
+.sec1:hover
+{
+	cursor: pointer;
+}
+.sec2
+{
+	width: 65%;
+}
+.sec3
+{
+	text-align: right;
+	margin: -20px 0px 0px 0px;
+	padding: 0.5em 0.8em 0.5em 0.5em;
+
+}
+.sec3 .histo-fecha
+{
+	color: #818181;
+	font-size: 14px;
+}
+.sec3 .editar-hirt a 
+{
+	background: none;
+	color: #939191;
+	font-size: 19px;
+	text-decoration: none;
+}
+.sec3 .editar-hirt a:hover 
+{
+	color: #FF4250;
+}
+.sec3 .eliminar-hist a 
+{
+	background: none;
+	color: #939191;
+	font-size: 19px;
+	text-decoration: none;
+}
+.sec3 .histo-fecha
+{
+	display: block;
+}
+.sec3 .eliminar-hist a:hover 
+{
+	color: #FF4250;
+}
 #notificador
 {
 	background: #fff;
@@ -568,23 +636,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	display: inline-block;
 	vertical-align: top;
 }
-.sec1, .sec2, .sec3
-{
-	display: inline-block;
-	vertical-align: top;
-}
-.sec1
-{
-	width: 280px;
-}
-.sec2
-{
-	width: 50%;
-}
-.sec3
-{
-	width: 20%;
-}
+
 #section-lado-izq
 {
 	display: inline-block;
@@ -779,10 +831,15 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	width: 90%;
 }
-.sec1, .sec2, .sec3
+.sec1, .sec2
 {
 	display: block;
 	width: 99%;
+}
+.sec3
+{
+	display: block;
+	width: 90%;
 }
 }
 @media screen and (max-width: 330px){
