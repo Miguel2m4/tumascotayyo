@@ -223,19 +223,123 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 font-family: "DroidSans";
 src: url(../fonts/DroidSans.ttf) format("truetype");
 }
-.editar-hirt, .icon-trash-o
+.content
+{
+	display: none;
+}
+.conten-sup2
+{
+	width: 100%;
+	padding-bottom: 1em;
+}
+.conten-sup2 #cont-sup1
+{
+	text-align: left;
+}
+.conten-sup2 #cont-sup2
+{
+	text-align: left;
+}
+.conten-sup2 #cont-sup2 .edit-all
+{
+	/*background: #939191;*/
+	/*border-radius: 4em;*/
+	float: right;
+	/*height: 20px;*/
+	/*padding: 0.em;*/
+	/*width: 20px;*/
+
+}
+.conten-sup2 #cont-sup2 .edit-all a
+{
+	color: #939191;
+	border-radius: 5em;
+	/*border: 1px solid #939191;*/
+	text-decoration: none;
+	padding: 0.5em;
+	-webkit-transition: .3s;
+}
+.conten-sup2 #cont-sup2 .edit-all a:hover
+{
+	border: 1px solid #FF4250;
+	background: #FF4250;
+	color: #fff;
+}
+.conten-sup2 #cont-sup2 h2
+{
+	font-family: "DroidSans";
+	font-weight: 300;
+	margin: 10px 10px 0px 0px;
+}
+.conten-sup2 #cont-sup1 h2
+{
+	font-family: "DroidSans";
+	font-weight: 300;
+	margin: 10px 10px 0px 0px;
+}
+.conten-sup2 #cont-sup1 h3
+{
+	color: #818181;
+	font-weight: 300;
+	font-family: "DroidSans";
+	font-size: 16px;
+	margin: 2px 0px 2px 0px; 
+}
+.conten-sup2 #cont-sup2
+{
+	padding-top: 21px;
+}
+.conten-sup2 #cont-sup2 h2
+{
+	font-family: "DroidSans";
+	font-weight: 300;
+	margin: 10px 10px 0px 0px;
+}
+.conten-sup2 #cont-sup2 h3
+{
+	color: #818181;
+	font-weight: 300;
+	font-family: "DroidSans";
+	font-size: 16px;
+	margin: 2px 0px 2px 0px; 
+}
+.conten-sup2 #cont-sup1 #imagenpet2
+{
+	padding-top: 21px;
+}
+.conten-sup2 #cont-sup1 #imagenpet
+{
+	border-radius: 4.5em;
+	background-image: url(../images/galeria/pet1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	margin-right: 0.8em;
+	height: 130px;
+	width: 130px;
+}
+/*.editar-hirt, .icon-trash-o
 {
 	display: inline-block;
-	/*float: left;*/
+	float: left;
 	padding: 0.5em;
 	vertical-align: top;
+}*/
+.eliminar-hist .eliminar-hist
+{
+	display: inline-block;
+	padding: 0.5em !important;
+	vertical-align: top;
 }
+
 .eliminar-hist, .editar-hirt
 {
 	display: inline-block;
 	vertical-align: top;
-	width: 19px;
+	width: 29px;
 }
+
 .items li 
 {
 	background: #f3f4f4;
@@ -472,6 +576,29 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
+.sec-histo .sec22 p
+{
+	color: #818181;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: 0px;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.sec-histo .sec22 a
+{
+	background: #FDE9EA;
+	border-radius: 0.2em;
+	text-decoration: none;
+	color: #FF4250;
+	font-size: 14px;
+	padding:  0.2em 0.4em 0.2em 0.4em;
+	-webkit-transition: .3s;
+}
+.sec-histo .sec22 a:hover
+{
+	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
 .sec1, .sec2
 {
 	display: inline-block;
@@ -489,6 +616,10 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	width: 65%;
 }
+.sec22
+{
+	width: 95%;
+}
 .sec3
 {
 	text-align: right;
@@ -499,6 +630,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 .sec3 .histo-fecha
 {
 	color: #818181;
+	padding-top: 0.5em;
 	font-size: 14px;
 }
 .sec3 .editar-hirt a 
@@ -526,6 +658,67 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 .sec3 .eliminar-hist a:hover 
 {
 	color: #FF4250;
+}
+.tip
+{
+	position: relative;
+	cursor: pointer;
+}
+.tip span 
+{
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	font-family: "DroidSans";
+	top: 27px;
+	right: 15px;
+	/*width: 120px;*/
+	padding: 0.5em;
+	z-index: 100;
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px; /* Firefox */
+	-webkit-border-radius: 5px; /* Safari */
+}
+*:hover.tip {
+
+}
+*:hover.tip span {
+display: block;
+margin-left: 1px;
+cursor: pointer;
+}
+/* personalizar el cursor según el tipo de información */
+abbr.tip{
+cursor: help;
+}
+a.tip{
+cursor: pointer;
+}
+/* podemos personalizar tambien cada tip en particular */
+span.tip span{
+text-align: center;
+font-size: 16px;
+}
+span.tip span img{
+opacity: 0.8;
+}
+span.tip span img:hover{
+opacity: 0.8;
+}
+#cont-sup1 img
+{
+	border-radius: 10.8em;
+	width: 160px;
+	height: 160px;
+}
+#cont-sup1, #cont-sup2
+{
+	display: inline-block;
+	margin: 0px auto 0px auto;
+	vertical-align: top;
+	width: 48%;
 }
 #notificador
 {
