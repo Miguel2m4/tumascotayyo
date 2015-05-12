@@ -1024,6 +1024,11 @@ opacity: 0.8;
 	padding-bottom: 0.8em;
 
 }
+.conten-sup2 #cont-sup1 h2 {
+  font-family: "DroidSans";
+  font-weight: 300;
+  margin: -12px 10px 0px 0px;
+}
 #cont-sup1, #cont-sup2
 {
 	padding-top: 1px;
@@ -1032,6 +1037,9 @@ opacity: 0.8;
 .conten-sup2 #cont-sup2
 {
   padding-top: 1px;
+}
+.conten-sup2 #cont-sup1 #imagenpet2 {
+  padding-top: 16px;
 }
 .conten-sup2 #cont-sup1 #imagenpet
 {
