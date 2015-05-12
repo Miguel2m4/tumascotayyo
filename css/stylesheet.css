@@ -17,12 +17,12 @@ header
 	position: fixed;
 	width: 100%;
 }
-/*input:invalid 
-{ 
+/*input:invalid
+{
 	border: 1px solid red;
  }
-input:valid 
-{ 
+input:valid
+{
 	border: 1px solid green;
 }*/
 input[type=text]
@@ -86,7 +86,7 @@ textarea
 	color: #333;
 	text-align: center;
 	font-size: 21px;
-	line-height: 1.7em;	
+	line-height: 1.7em;
 	margin: 0px auto 0px auto;
 	width:  60%;
 }
@@ -134,7 +134,7 @@ textarea
 .contacto-form
 {
 	font-size: 21px;
-	margin: 0px auto 0px auto;	
+	margin: 0px auto 0px auto;
 	width: 45%;
 }
 .copyright
@@ -158,7 +158,7 @@ textarea
 .document-input-file
 {
 	color: #fff;
-	font-size: 16px;	
+	font-size: 16px;
 	text-align: left;
 }
 
@@ -171,7 +171,7 @@ div.arrow-up {
     font-size: 0;
     line-height: 0;
 }
-.flecha 
+.flecha
 {
 	height: 37px;
 	width: 100%;
@@ -210,15 +210,15 @@ div.arrow-up {
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
-	filter: grayscale(100%);  Para cuando es estándar funcione en todos 
-	filter: Gray(); /* IE4-8 and 9 
+	filter: grayscale(100%);  Para cuando es estándar funcione en todos
+	filter: Gray(); /* IE4-8 and 9
 
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;*/
-	
+
 }
 .fservicios .ventajas h2
 {
@@ -265,7 +265,7 @@ div.arrow-up {
 	/*background: #fff;*/
 	/*margin-top: 1.8em;*/
 	padding-top: 1.5em;
-}	
+}
 .fondosection2
 {
 	background: url(../images/imagendiana.jpg);
@@ -275,7 +275,7 @@ div.arrow-up {
 	margin-top: 1.8em;
 	padding: 1.8em 0em 0em 0em;
 	width: 100%;
-	
+
 }
 
 .fondosection3
@@ -285,9 +285,9 @@ div.arrow-up {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 1.8em;
-	padding: 1.8em 0em 0em 0em;	
+	padding: 1.8em 0em 0em 0em;
 	width: 100%;
-	
+
 }
 .fondosection3 h2
 {
@@ -310,8 +310,8 @@ div.arrow-up {
 {
 	background: #3BB5BE;
 	padding: 1.8em 0em 0em 0em;
-	
-	
+
+
 }
 .fondosection4 h2
 {
@@ -366,7 +366,7 @@ div.arrow-up {
 }
 .primera img
 {
-	width: 335px;	
+	width: 335px;
 }
 .primera h2
 {
@@ -380,7 +380,7 @@ div.arrow-up {
 }
 .probemoshaber
 {
-	margin:20px 0 20px 0; 
+	margin:20px 0 20px 0;
 }
 .probemoshaber a
 {
@@ -397,7 +397,7 @@ div.arrow-up {
 }
 .probemoshaber2
 {
-	margin:20px 0 20px 0; 
+	margin:20px 0 20px 0;
 }
 .probemoshaber2 a
 {
@@ -414,7 +414,7 @@ div.arrow-up {
 }
 .probemoshaber3
 {
-	margin:20px 0 20px 0; 
+	margin:20px 0 20px 0;
 	padding-right: 2.5em;
 }
 .probemoshaber3 a
@@ -439,7 +439,7 @@ div.arrow-up {
 }
 .segunda img
 {
-	width: 335px;	
+	width: 335px;
 }
 .segunda h2
 {
@@ -564,7 +564,7 @@ div.arrow-up {
 }
 #texto-inicio-lado1
 {
-	text-align: right;	
+	text-align: right;
 	width: 80%;
 }
 #texto-inicio-lado1 img
@@ -578,14 +578,14 @@ div.arrow-up {
     background-position: center center;
   	background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover; 
+    background-size: cover;
   	background-color:#464646;
   	margin: 0;
   	width: 100%;
   	height: 1000px;
 }
 
-#imagenfondo1 
+#imagenfondo1
 {
 	background-image: url(../images/bag.jpg);
 	background-position: center center;
@@ -600,7 +600,7 @@ div.arrow-up {
 	text-align: center;
 	padding-top: 90px;
 	width: 80%;
-	z-index: 100;	
+	z-index: 100;
 }
 #menu-top-lado1
 {
@@ -611,12 +611,12 @@ div.arrow-up {
 {
 	font-size: 1.2em;
 	text-align: left;
-	padding: 0px 20px 0px 120px;	
+	padding: 0px 20px 0px 120px;
 }
 #menu-top-lado1 a
 {
 	color: #fff;
-	text-decoration: none;	
+	text-decoration: none;
 }
 #menu-top-lado1, #menu-top-lado2
 {
@@ -625,7 +625,7 @@ div.arrow-up {
 }
 #menu-top-lado2
 {
-	width: 68%;	
+	width: 68%;
 }
 #menu-top-lado2 a:hover
 {
@@ -646,7 +646,7 @@ div.arrow-up {
 	font-size: 28px;
 }
 
-.lado-inicia p 
+.lado-inicia p
 {
 	font-size: 24px;
 }
@@ -676,7 +676,7 @@ div.arrow-up {
 	text-align: center;
 	width: 85%;
 	padding-top: 231px;
-	z-index: 100;	
+	z-index: 100;
 }
 #inicia-ses
 {
@@ -684,8 +684,8 @@ div.arrow-up {
 	text-align: center;
 	padding-top: 90px;
 	width: 80%;
-	z-index: 100;	
-}	
+	z-index: 100;
+}
 #menu-top-lado1
 {
 	width: 22%;
@@ -718,7 +718,7 @@ div.arrow-up {
 }
 input[type=file]
 {
-	font-size: 10px;	
+	font-size: 10px;
 	text-align: left;
 }
 .primera p
@@ -743,7 +743,11 @@ input[type=file]
 	text-align: center;
 	width: 85%;
 	padding-top: 90px;
-	z-index: 100;	
+	z-index: 100;
+}
+#cont-sup2
+{
+	width: 96%;
 }
 #contelado1, #contelado2
 {
@@ -776,7 +780,7 @@ input[type=file]
 {
 	background-image: url(../images/fotofondosesion2.jpg);
 }
-#imagenfondo1  
+#imagenfondo1
  {
  	height: 325px;
  }
@@ -791,10 +795,14 @@ input[type=file]
 
 }
 @media only screen and (max-width: 767px) {
- #imagenfondo1  
-  {
+ #imagenfondo1
+   {
     background-image: url(../images/bag2.jpg);
   }
+  #cont-sup2
+{
+	width: 96%;
+}
   .probemoshaber a
   {
   	font-size: 20px;

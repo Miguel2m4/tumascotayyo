@@ -29,7 +29,7 @@
 
 .icon-comprador:before {
 	content: "\f035";
-	padding: 0em 0.5em 0em 0.5em;  
+	padding: 0em 0.5em 0em 0.5em;
 }
 
 .icon-distribuidor:before {
@@ -283,7 +283,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	font-weight: 300;
 	font-family: "DroidSans";
 	font-size: 16px;
-	margin: 2px 0px 2px 0px; 
+	margin: 2px 0px 2px 0px;
 }
 .conten-sup2 #cont-sup2
 {
@@ -301,7 +301,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	font-weight: 300;
 	font-family: "DroidSans";
 	font-size: 16px;
-	margin: 2px 0px 2px 0px; 
+	margin: 2px 0px 2px 0px;
 }
 .conten-sup2 #cont-sup1 #imagenpet2
 {
@@ -340,7 +340,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	width: 29px;
 }
 
-.items li 
+.items li
 {
 	background: #f3f4f4;
 	border: 1px solid #e2e3e3;
@@ -372,7 +372,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 }
-.items img 
+.items img
 {
 	text-align: center;
 	margin: 0px auto 0px auto;
@@ -384,8 +384,8 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	color: #525252;
 	border-bottom: 2px solid #000;
 }
-.items h2 
-{	
+.items h2
+{
 	color: #5a5a5a;
 	font-size: 13px;
 	font-weight: 300;
@@ -633,18 +633,18 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	padding-top: 0.5em;
 	font-size: 14px;
 }
-.sec3 .editar-hirt a 
+.sec3 .editar-hirt a
 {
 	background: none;
 	color: #939191;
 	font-size: 19px;
 	text-decoration: none;
 }
-.sec3 .editar-hirt a:hover 
+.sec3 .editar-hirt a:hover
 {
 	color: #FF4250;
 }
-.sec3 .eliminar-hist a 
+.sec3 .eliminar-hist a
 {
 	background: none;
 	color: #939191;
@@ -655,7 +655,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	display: block;
 }
-.sec3 .eliminar-hist a:hover 
+.sec3 .eliminar-hist a:hover
 {
 	color: #FF4250;
 }
@@ -664,7 +664,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	position: relative;
 	cursor: pointer;
 }
-.tip span 
+.tip span
 {
 	cursor: pointer;
 	display: none;
@@ -811,9 +811,9 @@ opacity: 0.8;
 	font-family: arial, sans-serif;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
-	padding: 0.5em 0.5em 0.5em 0.5em;	
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	text-decoration: none;
-	
+
 }
 #panel-arriba-lado2 a:hover
 {
@@ -906,7 +906,7 @@ opacity: 0.8;
 	color: #fff;
 	font-family: arial, sans-serif;
 	margin-top: 1.5em;
-	padding: 0.5em 0.5em 0.5em 0.5em;	
+	padding: 0.5em 0.5em 0.5em 0.5em;
 	text-decoration: none;
 }
 #section-lado-der .crea-propietario
@@ -973,7 +973,7 @@ opacity: 0.8;
 	display: inline-block;
 	font-size: 18px;
 	padding-left: 0;
-	
+
 }
 #top-notificador ul li span
 {
@@ -989,7 +989,7 @@ opacity: 0.8;
 {
 	color: #fff;
 	text-decoration: none;
-	padding: 0.5em 0.8em 0.5em 0.8em;	
+	padding: 0.5em 0.8em 0.5em 0.8em;
 }
 #top-notificador ul li a:hover
 {
@@ -1005,7 +1005,7 @@ opacity: 0.8;
 #section-lado-der
 {
 	width: 95%;
-}	
+}
 }
 @media screen and (max-width: 800px){
 #section-lado-izq .crea-mascota img
@@ -1013,12 +1013,31 @@ opacity: 0.8;
 	border-radius: 0.3em;
 	width: 90%;
 }
+.sec-admin
+{
+	margin: 16px auto 0px auto;
+}
 .panel-back .conten-sup label
 {
 	display: block;
 	line-height: 10px;
 	padding-bottom: 0.8em;
 
+}
+#cont-sup1, #cont-sup2
+{
+	padding-top: 1px;
+	width: 95%;
+}
+.conten-sup2 #cont-sup2
+{
+  padding-top: 1px;
+}
+.conten-sup2 #cont-sup1 #imagenpet
+{
+	width: 93px;
+	float: center;
+	height: 93px;
 }
 .panel-back .conten-sup input[type=text]
 {
@@ -1036,7 +1055,7 @@ opacity: 0.8;
 }
 }
 @media screen and (max-width: 330px){
-#section-lado-izq 
+#section-lado-izq
 {
 	width: 99%;
 }
