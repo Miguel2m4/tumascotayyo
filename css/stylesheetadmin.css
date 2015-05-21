@@ -280,6 +280,8 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	padding: 0.8em 1.5em 1.8em 1.5em;
 	margin-top: 1.5em;
 	border-radius: 0.3em;
+	border:1px solid #f2f2f2;
+	margin-bottom: 1.5em;
 }
 .certificado-inf p
 {
@@ -287,9 +289,15 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 }
 .certificado-inf input[type="text"]
 {
-	padding: 0.3em;
+	text-align: left;
+	padding: 0.4em;
+	background: #f9f9f9;
+	border:none;
+	border:1px solid #ddd;
+	border-radius: 0.2em;
  	font-family: "arial";
  	margin-bottom: 0.5em;
+ 	width: 70%;
 }
 .certificado-inf a
 {
@@ -891,6 +899,13 @@ opacity: 0.8;
 	vertical-align: top;
 	width: 48%;
 }
+#cert-la1, #cert-la2
+{
+	display: inline-block;
+	width: 40%;
+	padding: 0.5em;
+	vertical-align: top;
+}
 #notificador
 {
 	background: #fff;
@@ -1190,6 +1205,10 @@ opacity: 0.8;
 }
 }
 @media screen and (max-width: 800px){
+#cert-la1, #cert-la2
+{
+	width: 90%;
+}
 #section-lado-izq .crea-mascota img
 {
 	border-radius: 0.3em;
