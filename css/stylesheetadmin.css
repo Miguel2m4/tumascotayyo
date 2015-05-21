@@ -223,6 +223,30 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 font-family: "DroidSans";
 src: url(../fonts/DroidSans.ttf) format("truetype");
 }
+.btn-superior
+{
+	text-align: left;
+	width: 100%;
+}
+.btn-superior span
+{
+	font-size: 12px;
+}
+.btn-superior a
+{
+	background: #f06008;
+  	border-radius: 0.3em;
+  	border-bottom: 4px solid #c95007;
+  	color: #fff;
+  	text-align: left;
+  	font-family: arial, sans-serif;
+  	padding: 0.5em 0.7em 0.5em 0.5em;
+  	text-decoration: none;
+}
+.btn-superior a:hover
+{
+	  background: #c95007;
+}
 .content
 {
 	display: none;
@@ -515,6 +539,19 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	text-align: left;
 
 }
+.sec-admin .img-perfil
+{
+	border-radius: 4.5em;
+  	background-image: url(../images/galeria/perrito.jpg);
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-left: 1.8em;
+  	margin-top: -25px;
+  	height: 130px;
+  	width: 130px;
+
+}
 .sec-histo
 {
 	background: #fff;
@@ -658,6 +695,70 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 .sec3 .eliminar-hist a:hover
 {
 	color: #FF4250;
+}
+.sostener-tabla
+{
+	background: #fff;
+	margin-top: 50px;
+	padding: 0.8em;
+}
+.sostener-tabla table
+{
+	width: 100%;
+}
+.sostener-tabla table thead
+{
+	background: #f6f6f6;
+	border:1px solid #e6e6e6;
+	padding: 0px 20px 0px 10px;
+
+}
+.sostener-tabla table thead tr td
+{
+	height: 35px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.sostener-tabla table tbody tr
+{
+	border-bottom: 1px solid #ddd;
+}
+.sostener-tabla table tbody tr td
+{
+	height: 35px;
+	text-transform: uppercase;
+}
+.sostener-tabla table tbody tr td .apro
+{
+	background: #13A9F8;
+	font-family: "arial";
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+}
+.sostener-tabla table tbody tr td .pend
+{
+	background: #F83113;
+	font-family: "arial";
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+}
+.sostener-tabla table tbody tr td a
+{
+	background: #F87F13;
+	font-family: "arial";
+	text-decoration: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 12px;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+}
+.sostener-tabla table tbody tr td a:hover
+{
+	background: #D26606;
 }
 .tip
 {
@@ -877,6 +978,17 @@ opacity: 0.8;
 	padding: 0.2em;
 	text-align: left;
 	width: 90%;
+}
+#section-lado-izq .crea-mascota select
+{
+	border: 1px solid #8FD5F4;
+	color: #333;
+	font-family: "arial";
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.2em;
+	text-align: left;
+	width: 91%;
 }
 
 #section-lado-der .crea-propietario
