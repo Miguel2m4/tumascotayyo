@@ -223,6 +223,33 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 font-family: "DroidSans";
 src: url(../fonts/DroidSans.ttf) format("truetype");
 }
+.buscador-sup-cer input[type="text"]
+{
+ 	padding: 0.3em;
+ 	font-family: "arial";
+}
+.buscador-sup-cer select
+{
+ 	padding: 0.3em;
+ 	font-family: "arial";
+}
+.buscador-sup-cer input[type="submit"]
+{
+	border:none;
+ 	background: #f06008;
+ 	border-radius: 0.3em;
+	border-bottom: 4px solid #c95007;
+  	color: #fff;
+  	font-family: arial, sans-serif;
+  	margin-left: 0.5em;
+  	margin-right: 0.5em;
+  	padding: 0.5em 0.8em 0.5em 0.8em;
+  	text-decoration: none;
+}
+.buscador-sup-cer input[type="submit"]:hover
+{
+	background: #c95007;
+}
 .btn-superior
 {
 	text-align: left;
@@ -246,6 +273,49 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 .btn-superior a:hover
 {
 	  background: #c95007;
+}
+.certificado-inf
+{
+	background: #fff;
+	padding: 0.8em 1.5em 1.8em 1.5em;
+	margin-top: 1.5em;
+	border-radius: 0.3em;
+}
+.certificado-inf p
+{
+	font-size: 19px;
+}
+.certificado-inf input[type="text"]
+{
+	padding: 0.3em;
+ 	font-family: "arial";
+ 	margin-bottom: 0.5em;
+}
+.certificado-inf a
+{
+	border:none;
+ 	background: #f06008;
+ 	border-radius: 0.3em;
+	border-bottom: 4px solid #c95007;
+  	color: #fff;
+  	font-family: arial, sans-serif;
+  	margin-left: 0.5em;
+  	margin-right: 0.5em;
+  	padding: 0.5em 0.8em 0.5em 0.8em;
+  	text-decoration: none;
+}
+.certificado-inf a:hover
+{
+	background: #c95007;
+}
+.certificado-inf .sub2
+{
+	background: #7F3304;
+	border-bottom: 4px solid #522204;
+}
+.certificado-inf .sub2:hover
+{
+	background: #522204;
 }
 .content
 {
