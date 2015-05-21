@@ -730,19 +730,19 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 }
 .sostener-tabla table tbody tr td .apro
 {
-	background: #13A9F8;
+	border:1px solid #13A9F8;
 	font-family: "arial";
 	border-radius: 3px;
-	color: #fff;
+	color: #13A9F8;
 	font-size: 12px;
 	padding: 0.3em 0.5em 0.3em 0.5em;
 }
 .sostener-tabla table tbody tr td .pend
 {
-	background: #F83113;
+	border:1px solid #F83113;
 	font-family: "arial";
 	border-radius: 3px;
-	color: #fff;
+	color: #F83113;
 	font-size: 12px;
 	padding: 0.3em 0.5em 0.3em 0.5em;
 }
