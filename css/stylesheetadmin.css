@@ -228,6 +228,10 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
  	padding: 0.3em;
  	font-family: "arial";
 }
+.buscador-sup-cer p
+{
+	font-size: 20px;
+}
 .buscador-sup-cer select
 {
  	padding: 0.3em;
