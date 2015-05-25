@@ -286,6 +286,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	border-radius: 0.3em;
 	border:1px solid #f2f2f2;
 	margin-bottom: 1.5em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
 }
 .certificado-inf p
 {
@@ -498,6 +499,59 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	font-family: arial, sans-serif;
 	margin-top: -9px;
 	text-align: center;
+}
+.invt1 form
+{
+	background: #fff;
+  	margin-top: 50px;
+  	padding: 0.8em;
+  	text-align: left;
+  	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+.invt1 input[type="text"]
+{
+	text-align: left;
+  	padding: 0.4em;
+  	background: #f9f9f9;
+  	border: none;
+  	border: 1px solid #ddd;
+  	border-radius: 0.2em;
+  	font-family: "arial";
+  	margin-bottom: 0.5em;
+  	width: 95%;
+}
+.invt1 select
+{
+	text-align: left;
+  	padding: 0.4em;
+  	background: #f9f9f9;
+  	border: none;
+  	border: 1px solid #ddd;
+  	border-radius: 0.2em;
+  	font-family: "arial";
+  	margin-bottom: 0.5em;
+  	width: 97%;
+}
+.invt1 input[type="submit"]
+{
+	border:none;
+	background: #f06008;
+  	border-radius: 0.3em;
+  	border-bottom: 4px solid #c95007;
+  	color: #fff;
+  	display: block;
+  	text-align: left;
+  	font-family: arial, sans-serif;
+  	padding: 0.5em 0.7em 0.5em 0.5em;
+  	text-decoration: none;
+
+}
+.invt1, .invt2
+{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0.8em;
+	width: 45%;
 }
 .navega
 {
@@ -783,6 +837,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	background: #fff;
 	margin-top: 50px;
 	padding: 0.8em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
 }
 .sostener-tabla table
 {
@@ -1196,6 +1251,23 @@ opacity: 0.8;
 {
 	background: #1D664F;
 }
+#vacun
+{
+	padding: 0.8em;
+}
+#vacun img
+{
+	width: 100px;
+}
+#vacun, #vacun2
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#vacun2 p
+{
+	font-family: 'arial';
+}
 
 @media screen and (max-width: 1030px){
 
@@ -1216,6 +1288,10 @@ opacity: 0.8;
 #section-lado-izq .crea-mascota img
 {
 	border-radius: 0.3em;
+	width: 90%;
+}
+.invt1, .invt2
+{
 	width: 90%;
 }
 .sec-admin
