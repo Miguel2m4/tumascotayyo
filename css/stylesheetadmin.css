@@ -945,6 +945,13 @@ opacity: 0.8;
 span.tip span img:hover{
 opacity: 0.8;
 }
+.vacunaborde
+{
+	border: 1px solid #ddd;
+	border-radius: 0.5em;
+	margin-bottom: 0.5em;
+	width: 320px;
+}
 #cont-sup1 img
 {
 	border-radius: 10.8em;
