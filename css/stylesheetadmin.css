@@ -897,6 +897,68 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	background: #D26606;
 }
+.vacunacion, .dieta
+{
+	font-family: "arial";
+	display: inline-block;
+	padding: 0.5em;
+	width: 40%;
+	vertical-align: top;
+}
+.vacunacion table
+{
+	width: 100%;
+	background: #fff;
+}
+.vacunacion table thead tr th
+{
+	background: #13a9f8;
+	color: #fff;
+	height: 40px;
+}
+.vacunacion table tbody tr td
+{
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	text-align: left;
+	padding: 0.4em 0.4em 0.4em 1.4em;
+}
+.vacunacion table tbody tr td textarea
+{
+	height: 75px;
+	width: 95%;
+}
+.vacunacion table tbody tr:hover
+{
+	background: #f9f9f9;
+}
+.dieta table
+{
+	width: 100%;
+	background: #fff;
+}
+.dieta table thead tr th
+{
+	background: #13a9f8;
+	color: #fff;
+	height: 40px;
+}
+.dieta table tbody tr td
+{
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	text-align: left;
+	padding: 0.4em 0.4em 0.4em 1.4em;
+}
+.dieta table tbody tr td textarea
+{
+	height: 75px;
+	width: 95%;
+}
+.dieta table tbody tr:hover
+{
+	background: #f9f9f9;
+}
 .tip
 {
 	position: relative;
