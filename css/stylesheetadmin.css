@@ -881,7 +881,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	vertical-align: top;
 	text-align: left;
 }
-.seccion2 .bloque3 
+.seccion2 .bloque3
 {
 	width: 100%;
 
@@ -929,7 +929,7 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
   	border-radius: 0.2em;
   	font-family: "arial";
   	margin-bottom: 0.5em;
-  	width: 90%;
+  	width: 89%;
   	-webkit-transition: .3s;
 }
 .seccion2 .bloque1 input[type="text"]:focus
