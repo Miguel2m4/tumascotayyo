@@ -26,6 +26,10 @@ input:focus
 {
 	outline: none;
 }
+textarea:focus
+{
+	outline: none;
+}
 .icon-histor:before {
 	content: "\f068";
 }
@@ -874,6 +878,68 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	padding: 0.8em;
 	width: 79.4%;
 }
+.seccion3
+{
+	background: #fff;
+	font-family: "arial";
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	margin: 0.5em auto 0.5em auto;
+	padding: 0.8em;
+	width: 79.4%;
+}
+.seccion4
+{
+	background: #fff;
+	font-family: "arial";
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	margin: 0.5em auto 0.5em auto;
+	padding: 0.8em;
+	width: 79.4%;
+}
+.seccion4 table
+{
+	width: 100%;
+}
+.seccion4 table tr td
+{
+	text-align: left;
+	padding-left: 1em;
+}
+.seccion4 table tr td input[type=text]
+{
+	text-align: left;
+  	padding: 0.4em;
+  	background: #f9f9f9;
+  	border: none;
+  	border: 2px solid #ddd;
+  	border-radius: 0.2em;
+  	font-family: "arial";
+  	margin-bottom: 0.5em;
+  	width: 90%;
+  	-webkit-transition: .3s;
+}
+.seccion4 table tr td input[type=text]:focus
+{
+	border:2px solid #13a9f8;
+}
+.seccion3 textarea
+{
+	text-align: left;
+  	padding: 0.4em;
+  	background: #f9f9f9;
+  	border: none;
+  	height: 80px;
+  	border: 2px solid #ddd;
+  	border-radius: 0.2em;
+  	font-family: "arial";
+  	margin-bottom: 0.5em;
+  	width: 90%;
+  	-webkit-transition: .3s;
+}
+.seccion3 textarea:focus
+{
+	border:2px solid #13a9f8;
+}
 .seccion2 .bloque1, .bloque2
 {
 	display: inline-block;
@@ -1478,6 +1544,10 @@ opacity: 0.8;
 {
 	border-radius: 0.3em;
 	width: 90%;
+}
+.seccion3
+{
+	width: 96%;
 }
 .propi-lado
 {
