@@ -433,6 +433,12 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 	height: 130px;
 	width: 130px;
 }
+.dividedoble
+{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
 /*.editar-hirt, .icon-trash-o
 {
 	display: inline-block;
@@ -1545,7 +1551,15 @@ opacity: 0.8;
 	border-radius: 0.3em;
 	width: 90%;
 }
+.dividedoble
+{
+	width: 95%;
+}
 .seccion3
+{
+	width: 96%;
+}
+.seccion4
 {
 	width: 96%;
 }
