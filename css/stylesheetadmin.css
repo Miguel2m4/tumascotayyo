@@ -30,6 +30,10 @@ textarea:focus
 {
 	outline: none;
 }
+select:focus
+{
+	autline: none;
+}
 .icon-histor:before {
 	content: "\f068";
 }
@@ -951,6 +955,52 @@ src: url(../fonts/DroidSans.ttf) format("truetype");
 {
 	border:2px solid #13a9f8;
 }
+.seccion4 .seccionlate
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+.seccion4 .seccionlate select
+{
+	text-align: left;
+  	padding: 0.4em;
+  	background: #f9f9f9;
+  	border: none;
+  	border: 2px solid #ddd;
+  	border-radius: 0.2em;
+  	font-family: "arial";
+  	margin-bottom: 0.5em;
+  	width: 90%;
+  	-webkit-transition: .3s;
+}
+.seccion4 .seccionlate input[type="text"]
+{
+	text-align: left;
+  	padding: 0.4em;
+  	background: #f9f9f9;
+  	border: none;
+  	border: 2px solid #ddd;
+  	border-radius: 0.2em;
+  	font-family: "arial";
+  	margin-bottom: 0.5em;
+  	width: 85%;
+  	-webkit-transition: .3s;
+}
+.seccion4 .seccionlate input[type="text"]:focus
+{
+	border:2px solid #13a9f8;
+
+}
+.seccion4 .seccionlate h3
+{
+	color: #7D7C7C;
+	font-weight: 300;
+}
+.seccion4 .seccionlate select:focus
+{
+	border:2px solid #13a9f8;
+}
 .seccion3 textarea
 {
 	text-align: left;
@@ -1585,6 +1635,10 @@ opacity: 0.8;
 .seccion4
 {
 	width: 96%;
+}
+.seccion4 .seccionlate
+{
+	width: 100%;
 }
 .propi-lado
 {
